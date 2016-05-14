@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack",
     "build:prod": "webpack -p",
-    "serve": "webpack-dev-server --content-base dist/ --inline"
+    "serve": "webpack-dev-server --content-base dist/ --inline",
+    "postinstall": "typings install"
   },
   "author": "Dieter Goetelen",
   "license": "ISC",
