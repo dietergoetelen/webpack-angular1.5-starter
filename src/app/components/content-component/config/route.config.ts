@@ -7,6 +7,6 @@ export default function config($stateProvider:ng.ui.IStateProvider, $urlRouterPr
     $stateProvider
         .state('home', {
             url: "/home",
-            template: "<x-home></x-home>"
+            template: "<dg-home></dg-home>"
         });
 }

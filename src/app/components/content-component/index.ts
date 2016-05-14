@@ -9,7 +9,7 @@ import headerComponent from '../header-component';
 import footerComponent from '../footer-component';
 
 // components
-import { HomeComponent } from './home-component'
+import { HomeComponent } from './home-component';
 
 export default angular.module('app.content', [
     <string>router,
@@ -17,7 +17,7 @@ export default angular.module('app.content', [
     footerComponent.name
 ])
 
-.component('xHome', HomeComponent)
+.component('dgHome', HomeComponent)
 
 .config(routeConfig)
 
