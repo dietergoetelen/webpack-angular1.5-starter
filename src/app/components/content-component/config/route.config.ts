@@ -13,5 +13,9 @@ export default function config($stateProvider:ng.ui.IStateProvider, $urlRouterPr
             url: '/home',
             template: "<dg-home></dg-home>"
         })
+        .state('root.about', {
+            url: '/about',
+            template: '<dg-about></dg-about>'
+        })
         ;
 }

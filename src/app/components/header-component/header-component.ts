@@ -6,7 +6,12 @@ import { Component } from 'decorators';
   bindings: {
     prop: '<'
   },
-  template: '<div>Hello from home</div>'
+  template: `
+    <p>
+      <a ui-sref="root.home">Home</a> | <a ui-sref="root.about">About</a>
+    </p>
+
+  `
 })
 export class HeaderComponent {
     
