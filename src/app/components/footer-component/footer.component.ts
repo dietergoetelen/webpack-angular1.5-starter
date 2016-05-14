@@ -1,4 +1,4 @@
-import { Component } from 'components';
+import { Component } from 'decorators';
 
 @Component({
     template: `

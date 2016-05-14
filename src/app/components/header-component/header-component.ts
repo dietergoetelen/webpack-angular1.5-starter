@@ -1,6 +1,6 @@
 require('./header.less');
 
-import { Component } from 'components';
+import { Component } from 'decorators';
 
 @Component({
   bindings: {

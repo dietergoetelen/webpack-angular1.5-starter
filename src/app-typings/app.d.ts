@@ -4,6 +4,6 @@ declare var require: {
     ensure: (paths: string[], callback: (require: <T>(path: string) => T) => void) => void;
 };
 
-declare module "components" {
+declare module "decorators" {
     function Component(options: ng.IComponentOptions) : Function;
 }

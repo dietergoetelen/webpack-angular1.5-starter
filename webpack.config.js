@@ -12,7 +12,7 @@ module.exports = {
         root: path.resolve('./src'),
         extensions: ['', '.webpack.js', '.web.js', '.ts', '.js'],
         alias: {
-            components: path.resolve(__dirname, 'src', 'decorators', 'index.ts')
+            decorators: path.resolve(__dirname, 'src', 'decorators', 'index.ts')
         }
     },
 
