@@ -1,4 +1,4 @@
-require('file?name=[name].[ext]!./index.html');
+require('!!file?name=[name].[ext]!./index.html');
 
 import * as angular from 'angular';
 import mainModule from './app/app';

@@ -1,13 +1,7 @@
 import { Component } from 'decorators';
 
 @Component({
-    template: `
-        <dg-header></dg-header>
-        
-        <div ui-view></div>
-        
-        <dg-footer></dg-footer>
-    `
+    template: <string>require('./content.html')
 })
 export class ContentComponent {
     
