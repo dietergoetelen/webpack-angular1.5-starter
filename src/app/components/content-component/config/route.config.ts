@@ -5,8 +5,13 @@ export default function config($stateProvider:ng.ui.IStateProvider, $urlRouterPr
     $urlRouterProvider.otherwise('/home');
     
     $stateProvider
-        .state('home', {
-            url: "/home",
+        .state('root', {
+            abstract: true,
+            template: "<dg-content></dg-content>"
+        })
+        .state('root.home', {
+            url: '/home',
             template: "<dg-home></dg-home>"
-        });
+        })
+        ;
 }

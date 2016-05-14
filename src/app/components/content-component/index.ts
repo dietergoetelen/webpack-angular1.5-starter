@@ -9,6 +9,7 @@ import headerComponent from '../header-component';
 import footerComponent from '../footer-component';
 
 // components
+import { ContentComponent } from './content.component';
 import { HomeComponent } from './home-component';
 
 export default angular.module('app.content', [
@@ -18,6 +19,7 @@ export default angular.module('app.content', [
 ])
 
 .component('dgHome', HomeComponent)
+.component('dgContent', ContentComponent)
 
 .config(routeConfig)
 

@@ -2,11 +2,11 @@ import { Component } from 'decorators';
 
 @Component({
     template: `
-        <x-header></x-header>
+        <dg-header></dg-header>
         
         <div ui-view></div>
         
-        <x-footer></x-footer>
+        <dg-footer></dg-footer>
     `
 })
 export class ContentComponent {
